@@ -6,6 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "@lord_ts/core": "0.7.3",
+    "@lord_ts/api": "0.7.3",
+    "@lord_ts/file": "0.7.3",
+    "@lord_ts/path": "0.7.3",
+    "@lord_ts/math": "0.7.3",
+    "@lord_ts/measure": "0.7.3"
+  },
+  "devDependencies": {
+
+  },
   "author": "c0ncentus",
   "license": "ISC"
 }
