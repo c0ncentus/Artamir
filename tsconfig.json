@@ -14,7 +14,8 @@
       "ES2017",
       "ES2016",
       "ES2015",
-      "esnext"
+      "esnext",
+      "DOM"
     ],
     "allowJs": true,
     "skipLibCheck": true,

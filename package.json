@@ -4,18 +4,44 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ts-node ./src/Devloper_Only/test/import.ts"
   },
   "dependencies": {
-    "@lord_ts/core": "0.7.3",
-    "@lord_ts/api": "0.7.3",
-    "@lord_ts/file": "0.7.3",
-    "@lord_ts/path": "0.7.3",
-    "@lord_ts/math": "0.7.3",
-    "@lord_ts/measure": "0.7.3"
+    "@lord_ts/core": "0.7.4",
+    "@lord_ts/api": "0.7.4",
+    "@lord_ts/file": "0.7.4",
+    "@lord_ts/path": "0.7.6",
+    "@lord_ts/math": "0.7.4",
+    "@lord_ts/measure": "0.7.4",
+    "@lord_ts/color": "0.7.4",
+    "@lord_ts/geo_coord": "0.7.4",
+    "@lord_ts/vote": "0.7.4",
+    "@lord_ts/directory_local": "0.7.4"
   },
   "devDependencies": {
-
+    "trie-prefix-tree": "1.5.1",
+    "buffer": "6.0.3",
+    "extract-zip": "^2.0.1",
+    "minimatch": "^9.0.3",
+    "ts-morph": "^19.0.0",
+    "@lord_ts/meta": "^0.7.4",
+    "@zxcvbn-ts/core": "^3.0.3",
+    "@zxcvbn-ts/language-common": "^3.0.3",
+    "@zxcvbn-ts/language-en": "^3.0.1",
+    "fast-fuzzy": "^1.12.0",
+    "node-interval-tree": "^2.1.2",
+    "randexp": "^0.5.3",
+    "@donedeal0/superdiff": "^1.0.9",
+    "@msgpack/msgpack": "3.0.0-beta2",
+    "bignumber.js": "^9.1.1",
+    "deepdash": "^5.3.9",
+    "lodash": "^4.17.21",
+    "luxon": "^3.3.0",
+    "typescript": "^5.1.6",
+    "zod": "^3.21.4",
+    "@types/luxon": "3.3.1",
+    "@types/node":"20.4.5",
+    "@types/lodash": "4.14.196"
   },
   "author": "c0ncentus",
   "license": "ISC"
