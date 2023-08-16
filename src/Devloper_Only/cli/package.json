@@ -1,0 +1,48 @@
+{
+  "name": "@lord_ts/cli",
+  "version": "0.7.4",
+  "description": "",
+  "main": "dist/index.js",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "build": "echo a",
+    "start": "node ./dist/run.js"
+  },
+  "bin": {
+    "lordts": "./dist/index.js"
+  },
+  "author": "c0ncentus",
+  "license": "ISC",
+  "dependencies": {
+    "@lord_ts/api": "^0.7.4",
+    "@lord_ts/core": "^0.7.4",
+    "@lord_ts/directory_local": "^0.7.4",
+    "@lord_ts/file": "^0.7.4",
+    "@lord_ts/request": "^0.7.4",
+    "boxen": "7.1.0",
+    "child_process": "^1.0.2",
+    "execa": "^7.1.1",
+    "prompts": "^2.4.2",
+    "sparkly": "6.0.0",
+    "ts-morph": "^19.0.0",
+    "voici.js": "^2.1.0",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/prompts": "2.4.4",
+    "@types/yargs": "17.0.24"
+  },
+  "bundledDependencies": [
+    "boxen",
+    "child_process",
+    "commander",
+    "execa",
+    "prompts",
+    "sparkly",
+    "ts-morph",
+    "voici.js"
+  ]
+}

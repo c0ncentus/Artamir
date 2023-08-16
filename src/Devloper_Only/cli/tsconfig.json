@@ -1,0 +1,29 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+    "declaration": true
+  },
+  "exclude": [
+    "node_modules",
+    "dist/**/*"
+  ],
+  "references": [
+    {
+      "path": "../core"
+    },
+    {
+      "path": "../file"
+    },
+    {
+      "path":"../directory_local"
+    },
+    {
+      "path":"../request"
+    },
+    {
+      "path":"../api"
+    }
+  ]
+}

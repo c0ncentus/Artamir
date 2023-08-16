@@ -35,6 +35,23 @@ So when have
 
 ## Api
 
+move ALL_CMD, CONST, model, index, operation to @lors_ts/cli
+
+keep folder "command" 
+
+
+as folders exemple
+    -api
+        -...
+        -...
+    -file
+        -...
+    -scripts
+        -buildRepo
+        -publishRepo
+
+
+
 ## CLI
 
 ## scrap

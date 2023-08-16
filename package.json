@@ -16,7 +16,8 @@
     "@lord_ts/color": "0.7.4",
     "@lord_ts/geo_coord": "0.7.4",
     "@lord_ts/vote": "0.7.4",
-    "@lord_ts/directory_local": "0.7.4"
+    "@lord_ts/directory_local": "0.7.4",
+    "@lord_ts/request": "^0.7.4"
   },
   "devDependencies": {
     "trie-prefix-tree": "1.5.1",
